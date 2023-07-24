@@ -5,13 +5,13 @@ export default function Home() {
   const router = useRouter();
   const { locale } = router;
   return (
-    <div className="w-screen h-screen grid place-items-center ">
+    <div className="w-screen h-screen bg-[#4700b3] text-white grid place-items-center ">
       <picture>
-        <img src="/logo.png" className="w-96 h-96" alt="logo" />
+        <img src="/logo.png" className="w-48 h-48" alt="logo" />
       </picture>
       <div className="flex w-full  items-center justify-center">
         <div className="container  grid gap-4 text-center">
-          <label className="text-2xl text-left border-white border-opacity-20 text-gray-600">
+          <label className="text-2xl text-left border-white border-opacity-20 text-[#ffff4d]">
             ΕΛΛΗΝΙΚΑ / ENGLISH
           </label>
 

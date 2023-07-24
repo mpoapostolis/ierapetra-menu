@@ -22,10 +22,12 @@ export default function Page() {
   return (
     <div className="relative w-screen h-screen ">
       <Link
-        className=" flex items-center h-10   bg-black absolute top-2 left-2 p-4 rounded-full "
+        className=" flex items-center bg-black  p-2 w-10 h-10  text-3xl  justify-center absolute top-2 left-2  rounded-full "
         href="/"
       >
-        <div> Back</div>
+        <picture>
+          <img src="/arrow_back.png" alt="" />
+        </picture>
       </Link>
       <iframe src={`${url}/${loc}`} className="w-screen h-screen"></iframe>
     </div>
